@@ -16,14 +16,15 @@ A library that turns your beloved Deltarune engine into Mario & Luigi.
 # TODOs
 
 - [ ] Overworld
-  - [ ] Action Switching
+  - [x] Action Switching
   - [ ] Hammer
   - [x] 2D Maps
   - [ ] Proper layering (not ugly mask hack)
 - [ ] Battle
-  - [ ] Collision between battlers
-  - [ ] Health
-  - [ ] Defeat state for enemies
+  - [x] Collision between battlers
+  - [x] Enemy Health
+  - [x] Defeat state for enemies
+  - [ ] Defeat state for party members
   - [ ] ACTs, maybe? (Luigi Logic could be fun)
   - [ ] Bros. Attacks
   - [ ] Hammer
