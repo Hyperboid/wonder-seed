@@ -163,7 +163,6 @@ function MNLBattle:update()
 end
 
 function MNLBattle:sortChildren()
-    Utils.pushPerformance("MNLBattle#sortChildren")
     Object.startCache()
     local positions = {}
     for _,child in ipairs(self.children) do
@@ -187,7 +186,6 @@ function MNLBattle:sortChildren()
             ))))
     end)
     Object.endCache()
-    Utils.popPerformance()
 end
 
 function MNLBattle:draw()

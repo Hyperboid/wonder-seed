@@ -69,7 +69,6 @@ function World:getActionPage()
 end
 
 function World:sortChildren()
-    Utils.pushPerformance("mnl/World#sortChildren")
     Object.startCache()
     local positions = {}
     for _,child in ipairs(self.children) do
@@ -93,7 +92,6 @@ function World:sortChildren()
             ))))
     end)
     Object.endCache()
-    Utils.popPerformance()
 end
 
 function World:spawnFollower(chara, options)
